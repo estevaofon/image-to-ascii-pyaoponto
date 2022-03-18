@@ -6,7 +6,7 @@ with open("README.rst", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='image-to-ascii-pyaoponto',
-    version='0.2',
+    version='0.3',
     description='A Python module to transform image to ascii art',
     long_description=long_description,
     author='Python Direto ao Ponto',

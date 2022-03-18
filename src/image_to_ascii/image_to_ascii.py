@@ -26,7 +26,7 @@ class ImageToAscii:
         self.characters = "".join([self.ASCII_CHARS[pixel//25] for pixel in pixels])
         return(self.characters)
 
-    def img_path(self, path):
+    def image_path(self, path):
         """Open from path"""
         try:
             image = PIL.Image.open(path)

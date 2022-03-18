@@ -19,7 +19,7 @@ Code sample
     from image_to_ascii import ImageToAscii
     obj = ImageToAscii()
     # Image path
-    obj.img_path("link.png")
+    obj.image_path("link.png")
     # print on screen
     obj.plot()
     # save in a txt file
