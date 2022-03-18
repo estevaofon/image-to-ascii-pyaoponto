@@ -1,15 +1,14 @@
 import setuptools
 
 # Get the long description from the README file
-with open("README.md", "r", encoding="utf-8") as fh:
+with open("README.rst", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name='image-to-ascii-pyaoponto',
-    version='0.1',
+    version='0.2',
     description='A Python module to transform image to ascii art',
     long_description=long_description,
-    long_description_content_type="text/markdown",
     author='Python Direto ao Ponto',
     author_email='pyaoponto@gmail.com',
     license='MIT',

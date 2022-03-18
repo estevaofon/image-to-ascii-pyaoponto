@@ -42,9 +42,11 @@ class ImageToAscii:
             self.new_image_data[i:(i+self.new_width)] for i in range(0, pixel_count, self.new_width))
 
     def plot(self):
+        """print ascii art on the screen"""
         print(self.ascii_image)
 
-    def save_to_file(self):    
+    def save_to_file(self): 
+        """Save to text file"""   
         with open("ascii_image.txt", "w") as f:
             f.write(self.ascii_image)
         
