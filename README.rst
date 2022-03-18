@@ -2,7 +2,7 @@ Image to ASCII
 ===========
 A python module to easily transform image in ascii art.
 
-.. image:: https://raw.githubusercontent.com/estevaofon/pyanimation/master/examples/images/spritesheet.png
+.. image:: https://raw.githubusercontent.com/estevaofon/image-to-ascii-pyaoponto/main/zelda_ascii.png
 
 Setup
 -----
